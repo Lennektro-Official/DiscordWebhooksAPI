@@ -14,7 +14,7 @@ public class DiscordFormatting {
 		return "***" + str + "***";
 	}
 	
-	public static String UNDERLINE(String str) {
+	public static String UNDERLINED(String str) {
 		return "__" + str + "__";
 	}
 	
