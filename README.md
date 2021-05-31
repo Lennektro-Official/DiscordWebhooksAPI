@@ -35,3 +35,6 @@ webhook.sendMessage(msg);
 
 ### Embeds
 > *Comming soon*
+
+### Formattings
+> *Comming soon*
