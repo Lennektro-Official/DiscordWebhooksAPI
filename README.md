@@ -48,8 +48,9 @@ DiscordFormatting.HYPERLINK(your_string, your_url); //hyperlink (url as string)
 ```
 Here's an example:
 ```java
-String text = "This is " + DiscordFormatting.BOLD("bold") + " and this is " + DiscordFormatting.ITALIC("italic") 
-  + " and this is both: " + DiscordFormatting.BOLDITALIC("bold and italic") + ".";
+String text = "This is " + DiscordFormatting.BOLD("bold") + " and this is " 
+  + DiscordFormatting.ITALIC("italic") + " and this is both: "
+  + DiscordFormatting.BOLDITALIC("bold and italic") + ".";
 ```
 This will look something like this:  
 - This is **bold** and this is *italic* and this is both: ***bold and italic***.
