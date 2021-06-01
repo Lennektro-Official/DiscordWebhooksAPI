@@ -34,7 +34,27 @@ webhook.sendMessage(msg);
 ```
 
 ### Embeds
-> *Comming soon*
+You can add up to 10 Embeds to a message.
+You can add an Embed to a message using:
+```java
+message.addEmbed(your_embed);
+```
+But first, we need to create an Embed using:
+```java
+DiscordEmbed embed = new DiscordEmbed();
+```
+Now we need to define the properties of our Embed. The most basic ones
+are title, description and color:
+```java
+embed.setTitle(your_title); //your title as string without line breaks
+embed.setDescription(your_description) //your description as string without line breaks
+embed.setColor(your_color) //your color as decimal value
+```
+Basic Embed:  
+![image](https://user-images.githubusercontent.com/85063182/120365233-76802480-c30e-11eb-9116-7dc0dc668e62.png)
+>I recommend this site for color picking: https://www.spycolor.com/  
+  
+*>More comming soon<*
 
 ### Formattings
 You can formatt Strings in messages with this:
