@@ -47,8 +47,8 @@ Now we need to define the properties of our Embed. The most basic ones
 are title, description and color:
 ```java
 embed.setTitle(your_title); //your title as string without line breaks
-embed.setDescription(your_description) //your description as string without line breaks
-embed.setColor(your_color) //your color as decimal value
+embed.setDescription(your_description); //your description as string without line breaks
+embed.setColor(your_color); //your color as decimal value
 ```
 Basic Embed:  
 ![image](https://user-images.githubusercontent.com/85063182/120365233-76802480-c30e-11eb-9116-7dc0dc668e62.png)
