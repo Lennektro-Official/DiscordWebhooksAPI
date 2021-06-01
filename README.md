@@ -18,7 +18,7 @@ For now we just want to create a simple text message, so we do the following:
 ```java
 msg.setContent(your_message);
 ```
-And the we just have to send the message:
+And then we just have to send the message:
 ```java
 webhook.sendMessage(msg);
 ```
