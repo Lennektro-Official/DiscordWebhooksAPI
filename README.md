@@ -57,7 +57,7 @@ Basic Embed:
 *>More comming soon<*
 
 ### Formattings
-You can formatt Strings in messages with this:
+You can formatt Strings in messages and embeds with this:
 ```java
 DiscordFormatting.BOLD(your_string); //bold
 DiscordFormatting.ITALIC(your_string); //italic
