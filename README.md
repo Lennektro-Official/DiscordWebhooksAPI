@@ -54,7 +54,7 @@ Basic Embed:
 ![image](https://user-images.githubusercontent.com/85063182/120365233-76802480-c30e-11eb-9116-7dc0dc668e62.png)
 >I recommend this site for color picking: https://www.spycolor.com/  
   
-*>More comming soon<*
+The rest is relativley self explanatory. Parameters for images just require a url to the image file as a String.
 
 ### Formattings
 You can formatt Strings in messages and embeds with this:
